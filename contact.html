@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Automation Stack for workflow automation, n8n setup, and API integration services.">
+    <title>Contact Us | Automation Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><h2>Automation Stack</h2></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <a href="start-project.html" class="btn-nav">Start a Project</a>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Ready to automate your business? Let's discuss your automation needs</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Multiple Ways to Connect</h2>
+                    <p>Choose the method that works best for you. We're here to help transform your business through automation.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>📧 Email</strong>
+                            <a href="mailto:hello@automationstack.io">hello@automationstack.io</a>
+                            <p style="font-size: 14px; color: var(--gray-600); margin-top: 8px;">For general inquiries and support</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>📱 WhatsApp</strong>
+                            <a href="https://wa.me/1234567890" target="_blank">+1 (234) 567-890</a>
+                            <p style="font-size: 14px; color: var(--gray-600); margin-top: 8px;">Quick questions and instant support</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>📅 Schedule a Call</strong>
+                            <a href="https://calendly.com/automationstack" target="_blank">Book on Calendly</a>
+                            <p style="font-size: 14px; color: var(--gray-600); margin-top: 8px;">30-min free consultation</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>⏰ Response Time</strong>
+                            <span>Within 24 hours</span>
+                            <p style="font-size: 14px; color: var(--gray-600); margin-top: 8px;">Monday to Friday, 9 AM - 6 PM EST</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>🌐 Social Media</strong>
+                            <div style="display: flex; gap: 16px; margin-top: 12px;">
+                                <a href="#" style="color: var(--primary-pink);">LinkedIn</a>
+                                <a href="#" style="color: var(--primary-pink);">Twitter</a>
+                                <a href="#" style="color: var(--primary-pink);">GitHub</a>
+                                <a href="#" style="color: var(--primary-pink);">YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 style="margin-bottom: 24px; font-size: 24px;">Send Us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" style="width: 100%; padding: 14px 16px; border: 1px solid var(--gray-300); border-radius: 8px; font-size: 15px; font-family: var(--font-body);">
+                                <option value="">Select a service</option>
+                                <option value="wordpress">WordPress Automation</option>
+                                <option value="n8n">n8n Setup</option>
+                                <option value="ai">AI Integration</option>
+                                <option value="api">API Automation</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your automation needs *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe your current challenges and automation goals..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label style="display: flex; align-items: center; gap: 8px; font-size: 14px;">
+                                <input type="checkbox" required>
+                                <span>I agree to the <a href="privacy.html" style="color: var(--primary-pink);">Privacy Policy</a></span>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                        <p style="text-align: center; font-size: 13px; color: var(--gray-600); margin-top: 16px;">We'll respond within 24 hours</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section gray">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+
+            <div style="max-width: 800px; margin: 60px auto 0;">
+                <div class="service-detail-card">
+                    <h4 style="font-size: 18px; margin-bottom: 12px;">How quickly can you start my project?</h4>
+                    <p style="color: var(--gray-700);">Most projects can start within 3-5 business days after initial consultation and requirements gathering.</p>
+                </div>
+
+                <div class="service-detail-card">
+                    <h4 style="font-size: 18px; margin-bottom: 12px;">Do you offer ongoing support?</h4>
+                    <p style="color: var(--gray-700);">Yes! All our automation solutions include ongoing support, monitoring, and maintenance options.</p>
+                </div>
+
+                <div class="service-detail-card">
+                    <h4 style="font-size: 18px; margin-bottom: 12px;">What if I need changes after deployment?</h4>
+                    <p style="color: var(--gray-700);">We provide full documentation and training. You can manage workflows yourself or request our help for modifications.</p>
+                </div>
+
+                <div class="service-detail-card">
+                    <h4 style="font-size: 18px; margin-bottom: 12px;">Can you work with my existing systems?</h4>
+                    <p style="color: var(--gray-700);">Absolutely! We integrate with 1000+ tools and can connect any system with an API or webhook.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Automation Stack</h3>
+                    <p>No-Code + AI Automation Agency</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">All Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="community.html">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Automation Stack. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
